@@ -1,0 +1,9 @@
+.listContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    padding-top: 5%;
+    justify-items: center ;
+}

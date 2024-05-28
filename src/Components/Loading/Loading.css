@@ -1,0 +1,33 @@
+/* 
+.spinner {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: 9px solid;
+    border-color: #dbdcef;
+    border-right-color: #474bff;
+    animation: spinner-d3wgkg 1s infinite linear;
+ }
+ 
+ @keyframes spinner-d3wgkg {
+    to {
+       transform: rotate(1turn);
+    }
+ } */
+
+ .loadingContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-left: 200%;
+ }
+ .custom-loader {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background: 
+      radial-gradient(farthest-side,#766DF4 95%,#0000) 50% 1px/12px 12px no-repeat,
+      radial-gradient(farthest-side,#0000 calc(100% - 14px),#E4E4ED 0);
+    animation:s9 2s infinite linear;
+  }
+  @keyframes s9 {to{transform: rotate(1turn)}}

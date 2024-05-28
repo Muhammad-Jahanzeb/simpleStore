@@ -1,0 +1,29 @@
+.singleContainer{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    font-weight: bold;
+    width: 85%;
+    height: auto;
+    margin-left: 7%;
+    align-items: center;
+    margin-top: 2%;
+}
+
+img{
+    width:100px;
+    height: 120px;
+}
+
+.quantityContainer{
+    display: flex;
+    width:7%;
+    justify-content: space-between;
+}
+
+.mathBtn{
+    width:40%;
+    border: none;
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.navContainer{
+    display: flex;
+    background-color: rgb(19, 57, 75);
+    padding: 2%;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor:pointer;
+    transition: color 0.5s ease 0s, transform 0.5s ease;
+}
+
+a:hover{
+    color: #fff128;
+    transform: scale(1.1); 
+}
+
+.linkContainer{
+    display: flex;
+    /* font-size: 120%; */
+    width:10%;
+    justify-content: space-between;
+    color:white;
+    margin-right: 5%;
+}
+
+.smallCircle {
+    position: relative;
+    width: 10px;           /* Adjust the width as needed */
+    height: 10px;          /* Adjust the height as needed */
+    background-color: red; /* Set the background color to red */
+    border-radius: 50%;    /* Make it a circle */
+    z-index: 2;
+    left:15px;
+    top:-10px
+  }
+
+.navContainer span{
+    font-size: 200%;
+    font-weight: bold;
+}
